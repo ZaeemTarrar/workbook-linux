@@ -55,7 +55,11 @@ Contains List of Shell Commands in the Execution Order
 
 ### Global Flags
 
-`-help`
+`--help`
+
+### Global Commands
+
+`man`
 
 
 | # | Commands | Flags/Args | Example | Description |
@@ -73,7 +77,10 @@ Contains List of Shell Commands in the Execution Order
 | :orange_book: | `mv` |  |  | |
 | :orange_book: | `cp` |  |  | |
 | :orange_book: | `rm` |  |  | |
-| :orange_book: | `mkdir` |  |  | |
+| :orange_book: | `mkdir` | `-v` `<FolderName>` | `mkdir folder1` `mkdir -v folder2` `mkdir fold1 fold2` | Creates One or More Folders |
 | :orange_book: | `rmdir` |  |  | |
 | :orange_book: | `chmod` |  |  | |
 | :orange_book: | `nano` |  | | Opens an Editor to Edit Files via Terminal |
+| :orange_book: | `cal` |  |  | Shows Calendar |
+| :orange_book: | `date` |  |  | Shows Current Date |
+| :orange_book: | `exit` |  |  | Ternimates the Terminal |
