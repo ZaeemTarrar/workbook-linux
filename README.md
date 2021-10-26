@@ -60,7 +60,7 @@ Contains List of Shell Commands in the Execution Order
 | :orange_book: | `sudo` | `<Command>` | `sudo npm start` | Runs a Commands with Admin Priviliges | 
 | :orange_book: | `clear` |  | | Clears the Console/Terminal |
 | :orange_book: | `cd` | `<Path>` | `cd "./Movies/"` | Redirect to the Specified Path | 
-| :orange_book: | `ls` |  | Returns the List of Files/Folders | |
+| :orange_book: | `ls` |  | | Returns the List of Files/Folders |
 | :orange_book: | `cat` |  | `cat /etc/default/gurb` | | 
 | :orange_book: | `less` |  |  | |
 | :orange_book: | `grep` |  | | Used for Search Queries |
