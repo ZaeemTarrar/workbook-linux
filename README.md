@@ -1,3 +1,3 @@
 # Linux ( Operating System )
 
-![alt text](https://www.teahub.io/photos/full/162-1627164_best-ubuntu-wallpaper-debian-background.jpg)
+![alt text](https://cdn.wallpapersafari.com/58/27/Bytxi1.jpg)
