@@ -63,12 +63,12 @@ Contains List of Shell Commands in the Execution Order
 | :orange_book: | `ls` |  | Returns the List of Files/Folders | |
 | :orange_book: | `cat` |  | `cat /etc/default/gurb` | | 
 | :orange_book: | `less` |  |  | |
-| :orange_book: | `grep` |  | Used for Search Queries | |
-| :orange_book: | `sort` |  | Used for Sorting | |
+| :orange_book: | `grep` |  | | Used for Search Queries |
+| :orange_book: | `sort` |  | | Used for Sorting |
 | :orange_book: | `mv` |  |  | |
 | :orange_book: | `cp` |  |  | |
 | :orange_book: | `rm` |  |  | |
 | :orange_book: | `mkdir` |  |  | |
 | :orange_book: | `rmdir` |  |  | |
 | :orange_book: | `chmod` |  |  | |
-| :orange_book: | `nano` |  | Opens an Editor to Edit Files via Terminal | |
+| :orange_book: | `nano` |  | | Opens an Editor to Edit Files via Terminal |
