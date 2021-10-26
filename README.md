@@ -2,6 +2,8 @@
 
 ![alt text](https://cdn.wallpapersafari.com/58/27/Bytxi1.jpg)
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js" ></script>
+
 ## Operating System Layers
 
 - `BIOS` `UEFI`
