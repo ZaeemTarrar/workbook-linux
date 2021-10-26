@@ -53,6 +53,11 @@ Contains List of Shell Commands in the Execution Order
 
 ## Linux Basic Commands
 
+### Global Flags
+
+`-help`
+
+
 | # | Commands | Flags/Args | Example | Description |
 | :-: | :--------: | :----------: | :-------: | :----------- | 
 | :orange_book: | `pwd` | | | Return Complete Current Path |
