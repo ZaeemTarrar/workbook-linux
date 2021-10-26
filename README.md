@@ -26,9 +26,7 @@
 
 ## Kernal & Shell
 
-```mermaid
-A->B
-```
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBcHBsaWNhdGlvbnMgLS0-IEtlcm5hbFxuICAgIEtlcm5hbCAtLT4gQ1BVXG4gICAgS2VybmFsIC0tPiBNZW1vcnlcbiAgICBLZXJuYWwgLS0-IERldmljZXNcbiAgIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRhcmsifSwidXBkYXRlRWRpdG9yIjpmYWxzZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOmZhbHNlfQ)](https://mermaid.live/edit#eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBcHBsaWNhdGlvbnMgLS0-IEtlcm5hbFxuICAgIEtlcm5hbCAtLT4gQ1BVXG4gICAgS2VybmFsIC0tPiBNZW1vcnlcbiAgICBLZXJuYWwgLS0-IERldmljZXNcbiAgIiwibWVybWFpZCI6IntcbiAgXCJ0aGVtZVwiOiBcImRhcmtcIlxufSIsInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
 
 ## Main Directories/Folders
 
