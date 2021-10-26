@@ -26,8 +26,8 @@
 
 ## Kernal & Shell
 
-```flow
-Applications=>Bob: Hello Bob, how are you
+```mermaid
+A->B
 ```
 
 ## Main Directories/Folders
