@@ -66,7 +66,7 @@ Contains List of Shell Commands in the Execution Order
 | :-: | :--------: | :----------: | :-------: | :----------- | 
 | :orange_book: | `pwd` | | | Return Complete Current Path |
 | :orange_book: | `echo` | `<Text>` | `echo "Hello World"` | To Print | 
-| :orange_book: | `sudo` | `<Command>` | `sudo npm start` | <sub>Runs a Commands with Admin Priviliges</sub> | 
+| :orange_book: | `sudo` | `<Command>` | `sudo npm start` | <small>Runs a Commands with Admin Priviliges</small> | 
 | :orange_book: | `clear` |  | | Clears the Console/Terminal |
 | :orange_book: | `cd` | `<Path>` | `cd "./Movies/"` | Redirect to the Specified Path | 
 | :orange_book: | `ls` |  | | Returns the List of Files/Folders |
