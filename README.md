@@ -66,9 +66,9 @@ Contains List of Shell Commands in the Execution Order
 | :-: | :--------: | :-------: | :----------- | 
 | :orange_book: | `pwd` | | Return Complete Current Path |
 | :orange_book: | `echo` | `echo "Hello World"` | To Print | 
-| :orange_book: | `sudo` | `sudo npm start` | Runs a Commands with Admin Priviliges | 
+| :orange_book: | `sudo` | `sudo npm start` `sudo mkdir hello` | Runs a Commands with Admin Priviliges | 
 | :orange_book: | `clear` | | Clears the Console/Terminal |
-| :orange_book: | `cd` | `cd "./Movies/"` | Redirect to the Specified Path | 
+| :orange_book: | `cd` | `cd "./Movies/"` `cd Videos` | Redirect to the Specified Path | 
 | :orange_book: | `ls` | | Returns the List of Files/Folders |
 | :orange_book: | `cat` | `cat /etc/default/gurb` | | 
 | :orange_book: | `less` |  | |
