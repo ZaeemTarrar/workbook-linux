@@ -22,6 +22,11 @@
     - `Cent OS`
     - `Suse` `OpenSuse`
 
+## Kernal & Shell
+
+flowchart TD
+    Start --> Stop
+
 ## Main Directories/Folders
 
 - `cd /boot` Main Boot Folder
