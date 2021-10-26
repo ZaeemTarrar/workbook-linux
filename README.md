@@ -55,7 +55,7 @@ Contains List of Shell Commands in the Execution Order
 
 | # | Commands | Flags | Args | Description |
 | :-: | :--------: | :-----: | :----: | :-----------: |
-|  | `pwd` |  |  |  |
+|  | `pwd` |  |  | Return Complete Current Path |
 
 - `ls *` 
 - `vi /etc/modules` To Open a File, To Edit
