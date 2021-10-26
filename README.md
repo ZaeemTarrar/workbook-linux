@@ -62,25 +62,25 @@ Contains List of Shell Commands in the Execution Order
 `man`
 
 
-| # | Commands | Flags/Args | Example | Description |
-| :-: | :--------: | :----------: | :-------: | :----------- | 
-| :orange_book: | `pwd` | | | Return Complete Current Path |
-| :orange_book: | `echo` | `<Text>` | `echo "Hello World"` | To Print | 
-| :orange_book: | `sudo` | `<Command>` | `sudo npm start` | Runs a Commands with Admin Priviliges | 
-| :orange_book: | `clear` |  | | Clears the Console/Terminal |
-| :orange_book: | `cd` | `<Path>` | `cd "./Movies/"` | Redirect to the Specified Path | 
-| :orange_book: | `ls` |  | | Returns the List of Files/Folders |
-| :orange_book: | `cat` |  | `cat /etc/default/gurb` | | 
-| :orange_book: | `less` |  |  | |
-| :orange_book: | `grep` |  | | Used for Search Queries |
-| :orange_book: | `sort` |  | | Used for Sorting |
-| :orange_book: | `mv` |  |  | |
-| :orange_book: | `cp` |  |  | |
-| :orange_book: | `rm` |  |  | |
-| :orange_book: | `mkdir` | `-v` `<FolderName>` | `mkdir fold1` `mkdir -v fold2` `mkdir fold1 fold2` | Creates One or More Folders |
-| :orange_book: | `rmdir` |  |  | |
-| :orange_book: | `chmod` |  |  | |
-| :orange_book: | `nano` |  | | Opens an Editor to Edit Files via Terminal |
-| :orange_book: | `cal` |  |  | Shows Calendar |
-| :orange_book: | `date` |  |  | Shows Current Date |
-| :orange_book: | `exit` |  |  | Ternimates the Terminal |
+| # | Commands | Example | Description |
+| :-: | :--------: | :-------: | :----------- | 
+| :orange_book: | `pwd` | | Return Complete Current Path |
+| :orange_book: | `echo` | `echo "Hello World"` | To Print | 
+| :orange_book: | `sudo` | `sudo npm start` | Runs a Commands with Admin Priviliges | 
+| :orange_book: | `clear` | | Clears the Console/Terminal |
+| :orange_book: | `cd` | `cd "./Movies/"` | Redirect to the Specified Path | 
+| :orange_book: | `ls` | | Returns the List of Files/Folders |
+| :orange_book: | `cat` | `cat /etc/default/gurb` | | 
+| :orange_book: | `less` |  | |
+| :orange_book: | `grep` | | Used for Search Queries |
+| :orange_book: | `sort` | | Used for Sorting |
+| :orange_book: | `mv` |  | |
+| :orange_book: | `cp` |  | |
+| :orange_book: | `rm` |  | |
+| :orange_book: | `mkdir` | `mkdir fold1` `mkdir -v -p fold2` `mkdir fold1 fold2` | Creates One or More Folders<br />`p` Hide Message If Already Exists<br />`v` Shows Process Verbose |
+| :orange_book: | `rmdir` |  | |
+| :orange_book: | `chmod` |  | |
+| :orange_book: | `nano` | | Opens an Editor to Edit Files via Terminal |
+| :orange_book: | `cal` |  | Shows Calendar |
+| :orange_book: | `date` |  | Shows Current Date |
+| :orange_book: | `exit` |  | Ternimates the Terminal |
