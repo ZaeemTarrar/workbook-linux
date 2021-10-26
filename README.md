@@ -55,7 +55,7 @@ Contains List of Shell Commands in the Execution Order
 
 | # | Commands | Flags/Args | Description | Example |
 | :-: | :--------: | :----------: | :-----------: | :-------: |
-| :orange_book: | `pwd` | | Return Complete Current Path | |
+| :orange_book: | `pwd` | | Return Complete Current Path | `echo "Hello World"` |
 | :orange_book: | `echo` | `<Text>` | To Print | |
 | :orange_book: | `sudo` | `<Command>` | Runs a Commands with Admin Priviliges | |
 | :orange_book: | `clear` |  | Clears the Console/Terminal | |
