@@ -53,22 +53,22 @@ Contains List of Shell Commands in the Execution Order
 
 ## Linux Basic Commands
 
-| # | Commands | Flags/Args | Description |
-| :-: | :--------: | :----------: | :-----------: |
-| :orange_book: | `pwd` | | Return Complete Current Path |
-| :orange_book: | `echo` | `<Text>` | To Print |
-| :orange_book: | `sudo` | `<Command>` | Runs a Commands with Admin Priviliges |
-| :orange_book: | `clear` |  | Clears the Console/Terminal |
-| :orange_book: | `cd` | `<Path>` | Redirect to the Specified Path | 
-| :orange_book: | `ls` |  | Returns the List of Files/Folders |
-| :orange_book: | `cat` |  |  |
-| :orange_book: | `less` |  |  |
-| :orange_book: | `grep` |  | Used for Search Queries |
-| :orange_book: | `sort` |  | Used for Sorting |
-| :orange_book: | `mv` |  |  |
-| :orange_book: | `cp` |  |  |
-| :orange_book: | `rm` |  |  |
-| :orange_book: | `mkdir` |  |  |
-| :orange_book: | `rmdir` |  |  |
-| :orange_book: | `chmod` |  |  |
-| :orange_book: | `nano` |  | Opens an Editor to Edit Files via Terminal |
+| # | Commands | Flags/Args | Description | Example |
+| :-: | :--------: | :----------: | :-----------: | :-------: |
+| :orange_book: | `pwd` | | Return Complete Current Path | |
+| :orange_book: | `echo` | `<Text>` | To Print | |
+| :orange_book: | `sudo` | `<Command>` | Runs a Commands with Admin Priviliges | |
+| :orange_book: | `clear` |  | Clears the Console/Terminal | |
+| :orange_book: | `cd` | `<Path>` | Redirect to the Specified Path | |
+| :orange_book: | `ls` |  | Returns the List of Files/Folders | |
+| :orange_book: | `cat` |  |  | |
+| :orange_book: | `less` |  |  | |
+| :orange_book: | `grep` |  | Used for Search Queries | |
+| :orange_book: | `sort` |  | Used for Sorting | |
+| :orange_book: | `mv` |  |  | |
+| :orange_book: | `cp` |  |  | |
+| :orange_book: | `rm` |  |  | |
+| :orange_book: | `mkdir` |  |  | |
+| :orange_book: | `rmdir` |  |  | |
+| :orange_book: | `chmod` |  |  | |
+| :orange_book: | `nano` |  | Opens an Editor to Edit Files via Terminal | |
