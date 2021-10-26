@@ -54,7 +54,7 @@ Contains List of Shell Commands in the Execution Order
 ## Linux Basic Commands
 
 | # | Commands | Flags/Args | Example | Description |
-| :-: | :--------: | :----------: | :-------: | :-----------: | 
+| :-: | :--------: | :----------: | :-------: | :----------- | 
 | :orange_book: | `pwd` | | | Return Complete Current Path |
 | :orange_book: | `echo` | `<Text>` | `echo "Hello World"` | To Print | 
 | :orange_book: | `sudo` | `<Command>` | `sudo npm start` | Runs a Commands with Admin Priviliges | 
