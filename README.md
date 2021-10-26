@@ -53,15 +53,15 @@ Contains List of Shell Commands in the Execution Order
 
 ## Linux Basic Commands
 
-| # | Commands | Flags/Args | Description | Example |
-| :-: | :--------: | :----------: | :-----------: | :-------: |
+| # | Commands | Flags/Args | Example | Description |
+| :-: | :--------: | :----------: | :-------: | :-----------: | 
 | :orange_book: | `pwd` | | Return Complete Current Path |  |
-| :orange_book: | `echo` | `<Text>` | To Print | `echo "Hello World"` |
-| :orange_book: | `sudo` | `<Command>` | Runs a Commands with Admin Priviliges | `sudo npm start` |
+| :orange_book: | `echo` | `<Text>` | `echo "Hello World"` | To Print | 
+| :orange_book: | `sudo` | `<Command>` | `sudo npm start` | Runs a Commands with Admin Priviliges | 
 | :orange_book: | `clear` |  | Clears the Console/Terminal | |
-| :orange_book: | `cd` | `<Path>` | Redirect to the Specified Path | `cd "./Movies/"` |
+| :orange_book: | `cd` | `<Path>` | `cd "./Movies/"` | Redirect to the Specified Path | 
 | :orange_book: | `ls` |  | Returns the List of Files/Folders | |
-| :orange_book: | `cat` |  |  | `cat /etc/default/gurb` |
+| :orange_book: | `cat` |  | `cat /etc/default/gurb` | | 
 | :orange_book: | `less` |  |  | |
 | :orange_book: | `grep` |  | Used for Search Queries | |
 | :orange_book: | `sort` |  | Used for Sorting | |
