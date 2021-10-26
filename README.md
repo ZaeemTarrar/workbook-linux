@@ -54,7 +54,7 @@ Contains List of Shell Commands in the Execution Order
 ## Linux Basic Commands
 
 | # | Commands | Flags/Args | Description |
-| :-: | :--------: | :-----: | :----: | :-----------: |
+| :-: | :--------: | :----------: | :-----------: |
 |  | `pwd` | | Return Complete Current Path |
 |  | `echo` | `<Text>` | To Print |
 |  | `sudo` | `<Command>` | Runs a Commands with Admin Priviliges |
