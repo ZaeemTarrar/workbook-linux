@@ -26,7 +26,11 @@
 
 ## Kernal & Shell
 
-![alt text](./a.png)
+- `Applications`
+    - `Kernal` Computer Program that allocates System Resources & Coordinate all the Details of the Computer Internals. Users Communicate with `OS` using `Shell`
+        - `CPU`
+        - `Memory`
+        - `Devices`
 
 ## Main Directories/Folders
 
