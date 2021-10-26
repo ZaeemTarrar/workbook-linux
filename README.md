@@ -66,7 +66,7 @@ Contains List of Shell Commands in the Execution Order
 | :-: | :--------: | :----------: | :-------: | :----------- | 
 | :orange_book: | `pwd` | | | Return Complete Current Path |
 | :orange_book: | `echo` | `<Text>` | `echo "Hello World"` | To Print | 
-| :orange_book: | `sudo` | `<Command>` | `sudo npm start` | <small>Runs a Commands with Admin Priviliges</small> | 
+| :orange_book: | `sudo` | `<Command>` | `sudo npm start` | Runs a Commands with Admin Priviliges | 
 | :orange_book: | `clear` |  | | Clears the Console/Terminal |
 | :orange_book: | `cd` | `<Path>` | `cd "./Movies/"` | Redirect to the Specified Path | 
 | :orange_book: | `ls` |  | | Returns the List of Files/Folders |
@@ -77,7 +77,7 @@ Contains List of Shell Commands in the Execution Order
 | :orange_book: | `mv` |  |  | |
 | :orange_book: | `cp` |  |  | |
 | :orange_book: | `rm` |  |  | |
-| :orange_book: | `mkdir` | `-v` `<FolderName>` | `mkdir folder1` `mkdir -v folder2` `mkdir fold1 fold2` | Creates One or More Folders |
+| :orange_book: | `mkdir` | `-v` `<FolderName>` | `mkdir fold1` `mkdir -v fold2` `mkdir fold1 fold2` | Creates One or More Folders |
 | :orange_book: | `rmdir` |  |  | |
 | :orange_book: | `chmod` |  |  | |
 | :orange_book: | `nano` |  | | Opens an Editor to Edit Files via Terminal |
