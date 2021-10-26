@@ -53,25 +53,22 @@ Contains List of Shell Commands in the Execution Order
 
 ## Linux Basic Commands
 
-| # | Commands | Flags | Args | Description |
+| # | Commands | Flags/Args | Description |
 | :-: | :--------: | :-----: | :----: | :-----------: |
-|  | `pwd` |  |  | Return Complete Current Path |
-|  | `echo` |  | `<Text>` | To Print |
-|  | `sudo` |  | `<Command>` | Runs a Commands with Admin Priviliges |
-|  | `clear` |  |  | Clears the Console/Terminal |
-|  | `cd` |  | `<Path>` | Redirect to the Specified Path | 
-|  | `ls` |  |  |  |
-|  | `cat` |  |  |  |
-|  | `less` |  |  |  |
-|  | `grep` |  |  |  |
-|  | `sort` |  |  |  |
-|  | `mv` |  |  |  |
-|  | `cp` |  |  |  |
-|  | `rm` |  |  |  |
-|  | `mkdir` |  |  |  |
-|  | `rmdir` |  |  |  |
-|  | `chmod` |  |  |  |
-
-- `ls *` 
-- `vi /etc/modules` To Open a File, To Edit
-    - Use `q!` to Quit
+|  | `pwd` | | Return Complete Current Path |
+|  | `echo` | `<Text>` | To Print |
+|  | `sudo` | `<Command>` | Runs a Commands with Admin Priviliges |
+|  | `clear` |  | Clears the Console/Terminal |
+|  | `cd` | `<Path>` | Redirect to the Specified Path | 
+|  | `ls` |  | Returns the List of Files/Folders |
+|  | `cat` |  |  |
+|  | `less` |  |  |
+|  | `grep` |  | Used for Search Queries |
+|  | `sort` |  | Used for Sorting |
+|  | `mv` |  |  |
+|  | `cp` |  |  |
+|  | `rm` |  |  |
+|  | `mkdir` |  |  |
+|  | `rmdir` |  |  |
+|  | `chmod` |  |  |
+|  | `nano` |  | Opens an Editor to Edit Files via Terminal |
