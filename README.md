@@ -24,13 +24,25 @@
     - `Cent OS`
     - `Suse` `OpenSuse`
 
-## Kernal & Shell
+## Foundation
+
+### Kernal
+
+Computer Program that allocates System Resources & Coordinate all the Details of the Computer Internals. Users Communicate with `OS` using `Shell`
 
 - `Applications`
-    - `Kernal` Computer Program that allocates System Resources & Coordinate all the Details of the Computer Internals. Users Communicate with `OS` using `Shell`
+    - `Kernal` 
         - `CPU`
         - `Memory`
         - `Devices`
+
+### Shell
+
+It is a Command Line Interpreter (CLI). It translates User Commands to Kernal Understandable Commands
+
+**Shell Script**
+
+Contains List of Shell Commands in the Execution Order 
 
 ## Main Directories/Folders
 
@@ -40,6 +52,10 @@
 - `cat /etc/default/grub` Grub File Configurations
 
 ## Linux Basic Commands
+
+| # | Commands | Flags | Args | Description |
+| :-: | :--------: | :-----: | :----: | :-----------: |
+|  | `pwd` |  |  |  |
 
 - `ls *` 
 - `vi /etc/modules` To Open a File, To Edit
