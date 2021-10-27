@@ -61,6 +61,9 @@ Contains List of Shell Commands in the Execution Order
 
 `Wild Card` `Search` `Flags` `Arguments` `Command Substitution`
 
+### Etc
+
+`group` `shadow` `boot` `sudoers` `skel` `.bash*` `yum.repos.d`
 
 | # | Commands | Example | Description |
 | :-: | :--------: | :-------: | :----------- | 
@@ -69,7 +72,7 @@ Contains List of Shell Commands in the Execution Order
 | :orange_book: | `sudo` | `sudo npm start` `sudo mkdir hello` | Runs a Commands with Admin Priviliges | 
 | :orange_book: | `clear` | | Clears the Console/Terminal |
 | :orange_book: | `cd` | `cd "./Movies/"` `cd Videos` | Redirect to the Specified Path | 
-| :orange_book: | `ls` | `ls -lh *.py | sort | grep *hello` | Returns the List of Files/Folders |
+| :orange_book: | `ls` | `ls -lh *.py | sort | grep *hello` `ls -Zalh` | Returns the List of Files/Folders |
 | :orange_book: | `ln` | `ln -s ./Desktop/test1 baz` | Creates Symbolic Links |
 | :orange_book: | `readlink` | `readlink -m baz` | Creates Symbolic Links |
 | :orange_book: | `cat` | `cat /etc/default/gurb` | | 
@@ -77,7 +80,7 @@ Contains List of Shell Commands in the Execution Order
 | :orange_book: | `file` |  | |
 | :orange_book: | `grep` | | Used for Search Queries |
 | :orange_book: | `sort` | | Used for Sorting |
-| :orange_book: | `mv` |  | |
+| :orange_book: | `mv` |  | To Relocate/Rename a Folder/File |
 | :orange_book: | `cp` |  | |
 | :orange_book: | `rm` |  | |
 | :orange_book: | `mkdir` | `mkdir fold1` `mkdir -v -p fold2` `mkdir fold1 fold2` | Creates One or More Folders<br />`p` Hide Message If Already Exists<br />`v` Shows Process Verbose |
@@ -95,3 +98,35 @@ Contains List of Shell Commands in the Execution Order
 | :orange_book: | `cat` | | Reads a File |
 | :orange_book: | `unlink` | | Deletes a File |
 | :orange_book: | `touch` | | Creates a File |
+| :orange_book: | `fdisk` | |  |
+| :orange_book: | `yum` | | |
+| :orange_book: | `apt` | | |
+| :orange_book: | `apt-get` | | |
+| :orange_book: | `mkfs` | | |
+| :orange_book: | `tuned` | | |
+| :orange_book: | `tuned-adm` | | |
+| :orange_book: | `tune2fs` | | |
+| :orange_book: | `w` | | |
+| :orange_book: | `last` | | |
+| :orange_book: | `passwd` | | To set Password |
+| :orange_book: | `users` | | |
+| :orange_book: | `useradd` | | |
+| :orange_book: | `userdel` | | |
+| :orange_book: | `usermod` | `usermod -L zaeem` `usermod -U zaeem` | `To Lock/UnLock Account` |
+| :orange_book: | `id` | `id zaeem` | |
+| :orange_book: | `whoami` | | |
+| :orange_book: | `which` | `which passwd` `which bash` `which python` `which pearl` | |
+| :orange_book: | `umask` | `umask u-x,g=r,o+w` | |
+| :orange_book: | `chmod` | `chmod u-x,g=r,o+w fold1` `chmod 745` | |
+| :orange_book: | `setfacl` | `setfacl -d -m group:name:rwx /path/to/your/dir` | Sets Permissions for Specific Folder |
+| :orange_book: | `chown` | `chown user:group fold1` | C hange User/Group Access |
+| :orange_book: | `chcon` | `chcon -t conf_t fold1` | Change Configuration Type |
+| :orange_book: | `restorecon` | `restorecon fold1` | Restore Configurations |
+| :orange_book: | `kill` | `kill 5115` | Kills a Process |
+| :orange_book: | `ps` | | |
+| :orange_book: | `jobs` | | |
+| :orange_book: | `rpm` | `rpm -qa` | |
+| :orange_book: | `yum` | `yum install something` `yum update something` `yum search something` | |
+| :orange_book: | `gcc` | `gcc hello.c` `gcc hello.c -o hello ` | |
+| :orange_book: | `make` | `make` `make clean` | |
+| :orange_book: | `fg` |  | |
