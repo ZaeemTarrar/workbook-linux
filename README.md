@@ -53,25 +53,28 @@ Contains List of Shell Commands in the Execution Order
 
 ## Linux Basic Commands
 
-### Global Flags
+### Global Flags & Commands
 
-`--help`
+`--help` `help` `man`
 
-### Global Commands
+### Terminal Terms
 
-`man`
+`Wild Card` `Search` `Flags` `Arguments` `Command Substitution`
 
 
 | # | Commands | Example | Description |
 | :-: | :--------: | :-------: | :----------- | 
 | :orange_book: | `pwd` | | Return Complete Current Path |
-| :orange_book: | `echo` | `echo "Hello World"` | To Print | 
+| :orange_book: | `echo` | `echo -e "Hello World \n Good !"` `echo *` `echo $SHELL` `echo $((2+9))` `echo abc{x,y,z}` `echo Number_{1..5}` `echo file_{a..z}` | To Print | 
 | :orange_book: | `sudo` | `sudo npm start` `sudo mkdir hello` | Runs a Commands with Admin Priviliges | 
 | :orange_book: | `clear` | | Clears the Console/Terminal |
 | :orange_book: | `cd` | `cd "./Movies/"` `cd Videos` | Redirect to the Specified Path | 
-| :orange_book: | `ls` | | Returns the List of Files/Folders |
+| :orange_book: | `ls` | `ls -lh *.py | sort | grep *hello` | Returns the List of Files/Folders |
+| :orange_book: | `ln` | `ln -s ./Desktop/test1 baz` | Creates Symbolic Links |
+| :orange_book: | `readlink` | `readlink -m baz` | Creates Symbolic Links |
 | :orange_book: | `cat` | `cat /etc/default/gurb` | | 
 | :orange_book: | `less` |  | |
+| :orange_book: | `file` |  | |
 | :orange_book: | `grep` | | Used for Search Queries |
 | :orange_book: | `sort` | | Used for Sorting |
 | :orange_book: | `mv` |  | |
@@ -84,3 +87,11 @@ Contains List of Shell Commands in the Execution Order
 | :orange_book: | `cal` |  | Shows Calendar |
 | :orange_book: | `date` |  | Shows Current Date |
 | :orange_book: | `exit` |  | Ternimates the Terminal |
+| :orange_book: | `diff` | `diff -s ./Desktop/abc baz` | Reports file differences |
+| :orange_book: | `grep` | | |
+| :orange_book: | `head` | `head -n 5 abc.txt` | |
+| :orange_book: | `tail` | | |
+| :orange_book: | `env` | | Shows Global/Environment Variables |
+| :orange_book: | `cat` | | Reads a File |
+| :orange_book: | `unlink` | | Deletes a File |
+| :orange_book: | `touch` | | Creates a File |
