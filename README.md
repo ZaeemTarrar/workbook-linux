@@ -63,7 +63,24 @@ Contains List of Shell Commands in the Execution Order
 
 ### Etc
 
-`group` `shadow` `boot` `sudoers` `skel` `.bash*` `yum.repos.d`
+`group` `shadow` `boot` `sudoers` `skel` `.bash*` `yum.repos.d` `systemmd/system/multi-user.target.wants/` 
+`firewalld/zones/public.xml` `sysctl.conf` `sysctl -p` `redhat-release` `fstab`
+
+### Var
+
+`spool/cron`
+
+### Lib
+
+`/usr/lib/`
+
+`firewalld`
+
+### Proc
+
+`/proc` => `zoneinfo` `version`
+
+`proc/sys/net/ipv4/ip_forward` =>  For Converting your Computer to Router
 
 | # | Commands | Example | Description |
 | :-: | :--------: | :-------: | :----------- | 
@@ -123,10 +140,32 @@ Contains List of Shell Commands in the Execution Order
 | :orange_book: | `chcon` | `chcon -t conf_t fold1` | Change Configuration Type |
 | :orange_book: | `restorecon` | `restorecon fold1` | Restore Configurations |
 | :orange_book: | `kill` | `kill 5115` | Kills a Process |
-| :orange_book: | `ps` | | |
+| :orange_book: | `ps` | `ps aux | less` | |
 | :orange_book: | `jobs` | | |
 | :orange_book: | `rpm` | `rpm -qa` | |
 | :orange_book: | `yum` | `yum install something` `yum update something` `yum search something` | |
 | :orange_book: | `gcc` | `gcc hello.c` `gcc hello.c -o hello ` | |
 | :orange_book: | `make` | `make` `make clean` | |
 | :orange_book: | `fg` |  | |
+| :orange_book: | `bg` |  | |
+| :orange_book: | `top` |  | |
+| :orange_book: | `nohup` | `nohup sleep 5 &` | Process Does not Die, If Terminal is Closed |
+| :orange_book: | `sleep` | `sleep 5` | |
+| :orange_book: | `>` | `ls -lah > newfile.txt` | Saves Result in File |
+| :orange_book: | `2>` | `grep hello /etc/* 2> /dev/null` | Hides Errors |
+| :orange_book: | `<` | `cat < hello.c > newHello.c` | Recieve Input |
+| :orange_book: | `>>` | | Appends File |
+| :orange_book: | `wc` | `./hello | wc` | Appends File |
+| :orange_book: | `sort` | `ls -lah | sort | wc` | Appends File |
+| :orange_book: | `systemctl` | `systemctl status` `systemctl status sshd` `systemctl disable sshd` `systemctl enable sshd` `systemctl start sshd` `systemctl restart fi rewalld` | |
+| :orange_book: | `netstat` | `netstat -tunap` | |
+| :orange_book: | `ip` | `ip addr` | Returns Ip Address Details |
+| :orange_book: | `crontab` | `crontab -e` | `alt + :wq` |
+| :orange_book: | `firewall-cmd` | `firewall-cmd --list-all --permanent` `firewall-cmd --add-service=http --permanent` `firewall-cmd --remove-service=http --permanent` `firewall-cmd --get-services` `firewall-cmd --add-port=123/tcp` | Lists all what is Allowed through Firewall |
+| :orange_book: | `df` | `df -h` | |
+| :orange_book: | `du` | `df -h /home` | |
+| :orange_book: | `lspci` | `lspci -v` | List of All PC Info |
+| :orange_book: | `lsusb` | | |
+| :orange_book: | `lsof` | `lsof -i :22` | |
+| :orange_book: | `arp` | `arp -a` `arp -d` | |
+
